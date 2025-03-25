@@ -1,0 +1,24 @@
+{
+  "name": "my-banner",
+  "version": "1.0.0",
+  "description": "This is a simple interactive web page that allows users to personalize their experience by changing their name, selecting their favorite activities, adding custom activities, and updating the background image. This project also save preferences in **local storage** to persist changes.",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

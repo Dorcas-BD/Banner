@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Banner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">Welcome to My Page</header>
+
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Hello, my name is <span id="nameText">Dorcas</span></h1>
+        <h2>
+          I love
+          <span id="activityText">traveling and exploring world.</span>
+        </h2>
+        <p id="enjoyList">
+          Other things I enjoy include photography, reading novels, and coding.
+        </p>
+      </div>
+    </section>
+
+    <form id="customizerForm">
+      <label for="nameInput">Change Name:</label>
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+
+      <label for="activityInput">Change Favorite Activity:</label>
+      <input type="text" id="activityInput" placeholder="Enter new activity" />
+
+      <label>Select Other Things You Enjoy:</label>
+      <div id="activityOptions">
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" value="Photography" />Photography</label
+          >
+          <label
+            ><input type="checkbox" value="Reading novels" />Reading
+            novels</label
+          >
+          <label><input type="checkbox" value="Coding" />Coding</label>
+          <label><input type="checkbox" value="Cooking" />Cooking</label>
+          <label><input type="checkbox" value="Dancing" />Dancing</label>
+          <label
+            ><input type="checkbox" value="Music" />Listening to music</label
+          >
+          <label><input type="checkbox" value="Gaming" />Gaming</label>
+          <label><input type="checkbox" value="Hiking" />Hiking</label>
+          <label><input type="checkbox" value="Drawing" />Drawing</label>
+          <label><input type="checkbox" value="Swimming" />Swimming</label>
+          <label><input type="checkbox" value="Traveling" />Traveling</label>
+          <label><input type="checkbox" value="Blogging" />Blogging</label>
+          <label><input type="checkbox" value="Meditation" />Meditation</label>
+          <label><input type="checkbox" value="Gardening" />Gardening</label>
+          <label
+            ><input type="checkbox" value="Volunteering" />Volunteering</label
+          >
+        </div>
+      </div>
+
+      <label for="customActivity">Add Your Own Activity:</label>
+      <input
+        type="text"
+        id="customActivity"
+        placeholder="Enter a new activity"
+      />
+      <button type="button" id="addActivity">Add Activity</button>
+
+      <label for="bgImageUpload">Change Background Image:</label>
+      <input type="file" id="bgImageUpload" accept="image/*" />
+
+      <button type="button" id="applyChanges">Apply Changes</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
