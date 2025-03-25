@@ -11,7 +11,7 @@ describe("My Enjoyable Activities Page", () => {
 
   beforeEach(() => {
     document.documentElement.innerHTML = html;
-    require("../script");
+    require("../js/script");
 
     nameInput = document.getElementById("nameInput");
     activityInput = document.getElementById("activityInput");
